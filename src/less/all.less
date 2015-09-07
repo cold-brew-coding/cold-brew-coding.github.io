@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'clearsans';
+  src: url('static/fonts/clearsans/ClearSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('static/fonts/clearsans/ClearSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('static/fonts/clearsans/ClearSans-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('static/fonts/clearsans/ClearSans-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('static/fonts/clearsans/ClearSans-Medium.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'aleo';
+  src: url('static/fonts/clearsans/ClearSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('static/fonts/clearsans/ClearSans-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('static/fonts/clearsans/ClearSans-Medium.eot.woff') format('woff'), /* Pretty Modern Browsers */
+       url('static/fonts/clearsans/ClearSans-Medium.eot.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('static/fonts/clearsans/ClearSans-Medium.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'norwester';
+  src: url('static/fonts/norwester/norwester.eot'); /* IE9 Compat Modes */
+  src: url('static/fonts/norwester/norwester.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('static/fonts/norwester/norwester.woff') format('woff'), /* Pretty Modern Browsers */
+       url('static/fonts/norwester/norwester.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('static/fonts/norwester/norwester.svg') format('svg'); /* Legacy iOS */
+}
+
+
+@background-color: #7EAEDA;
+@font-color: #333;
+
+.cbc {
+    font-family: 'clearsans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: @background-color;
+    color: @font-color;
+    
+
+    .cbc-wrapper {
+        width: 50%;
+        margin: 0 auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .cbc-title {
+            font-size: 3em;
+            margin: 0.2em 0;
+
+            text-align: center;
+        }
+
+        .cbc-mailto {
+            display: inline-block;
+            width: 100%;
+
+            text-align: center;
+
+            color: @font-color;
+        }
+
+    }
+
+}
